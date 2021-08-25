@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: rgb(49, 48, 48);
+    font-family: 'Open Sans', sans-serif;
+}
+.testClass {
+    background: #e60073;
+    box-shadow: 10px 10px 50px 60px rgba(230,0,115, 1);
+}
+h1 {
+    font-size: 80px;
+    color: aqua;
+    text-align: center;
+    animation: h1 1s ease-in-out infinite alternate;
+}
+
+.btn {
+    background: aqua;
+}
+
+.btn:hover {
+
+    box-shadow: 0px 0px 50px 0px rgba(2, 250, 237, 0.9);
+}
+
+#addSkill {
+    padding: 0px 20px;
+}
+
+@keyframes h1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
